@@ -1,29 +1,11 @@
-/*comentário no css */
-
-/* @TODO Otimizar a importação das fontes com um único link */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@200..700&display=swap');
-
-/* pt -> Pontos de tipografia 
-padrão ABNT -> Arial 12pt 
-mm -> milímetro
-cm -> centímetro */
-
-/* Alguns valores de propriedades não tem unidade de medida.
-   Exemplo: line-height, aspect-ratio, font-weight */
+/* comentario no css /*
 
 * { /* "*" -> todos os elementos aplicáveis */
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
-    /* box-sizing: como o CSS calcula o tamanho dos elementos */
-}
+    
 
-:root { /* root -> elemento raiz (html), mais alta hierarquia */
-    font-size: 16px; /* tamanho base do rem -> 1rem = 16px */
-    scroll-behavior: smooth; /* comportamento da rolagem: suave */
+:root { 
+    font-size: 16px; 
+    scroll-behavior: smooth; 
 }
 
 body {
@@ -45,15 +27,15 @@ section {
 }
 
 #apresentacao {
-    background-color: #ecb3b3;
+    background-color: #b9b3ec;
 }
 
 #formacaoAcademica {
-    background-color: #cdf0cd;
+    background-color: #178117;
 }
 
 #experienciaProfissional {
-    background-color: #fff2e3;
+    background-color: #d61825;
 }
 
 #hardSkills {
@@ -118,13 +100,15 @@ article h2 {/* h2 descendente de article */
 
 article p {
     text-align: justify;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+    /* height: 150px; */
+    overflow: hidden; /* transbordamento: escondido*/
 }
 
 article {
     width: 30%; /* 30% do pai (section id="tecnologias") */
     background-color: #cecece;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 
 .titulo-secao {
@@ -132,14 +116,13 @@ article {
     font-family: "Anta", sans-serif;
     color: rgb(53, 53, 53);
     font-size: 2rem;
-    margin: 1rem 0 2rem 0; /* valores: cima direita baixo esquerda */
-    padding: 0; /* valores: cima direita baixo esquerda */
-    /* text-shadow: 1px 1px 2px dimgray; */
+    margin: 1rem 0 2rem 0; 
+    padding: 0; 
 }
 
 p {
     line-height: 1.5; /* altura da linha: 1.5x o tamanho padrão */
-    margin: 1rem 0; /* valores: cima-baixo esquerda-direita */
+   /* valores: cima-baixo esquerda-direita */
 }
 
 h3 {
@@ -149,51 +132,56 @@ h3 {
     margin: 1rem 0;
     /* text-shadow: 1px 1px 2px dimgray; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#hardskills {
-
+    .continuelendo{
+        background-color: aqua;
+        padding: .5rem 1rem;
+        margin-top: 1rem;
+        border-radius: 10px;
+        text-decoration: none;
     
-}
+        color: #d61825;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
